@@ -59,7 +59,7 @@ void ScavTrap::guardGate()
 {
 	if (this->hit_points <= 0)
 	{
-    	std::cout << "Cannot switch to gate-keeper mode because: ClapTrap " << this->name << " is dead." << std::endl;
+    	std::cout << "Cannot switch to gate-keeper mode because: ScavTrap " << this->name << " is dead." << std::endl;
         return ;
     }
     if (this->energy_points <= 0)
