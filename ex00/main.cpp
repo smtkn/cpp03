@@ -3,14 +3,20 @@
 int main()
 {
 	std::cout << "*--------------Testing--------------*" << std::endl;
-	ClapTrap soldier;
-	ClapTrap soldier_2("solider");
+	ClapTrap dummy;
+	ClapTrap johnSnow("John Snow");
+	ClapTrap jamieLannister("Jaime Lannister");
 
-	soldier.attack("two enemy");
-	soldier.takeDamage(10);
-	soldier.takeDamage(10);
-	soldier.beRepaired(5);
-	soldier.attack("a enemy");
-	soldier_2.beRepaired(3);
-	soldier_2.takeDamage(10);
+	dummy.attack("Enemy");
+	dummy.takeDamage(10);
+	dummy.takeDamage(10);
+	dummy.beRepaired(5);
+
+	johnSnow.attack("Dragon");
+	johnSnow.takeDamage(10);
+	johnSnow.beRepaired(3);
+
+	jamieLannister.attack("White Walker");
+	jamieLannister.takeDamage(10);
+	jamieLannister.beRepaired(3);
 }
