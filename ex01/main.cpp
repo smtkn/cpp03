@@ -32,4 +32,8 @@ int main()
 	nedStark.takeDamage(10);
 	nedStark.beRepaired(10);
 	nedStark.guardGate();
+
+	std::cout << std::endl;
+	std::cout << "*--------------END--------------*" << std::endl;
+	std::cout << std::endl;
 }

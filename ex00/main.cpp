@@ -22,4 +22,8 @@ int main()
 	jamieLannister.attack("White Walker");
 	jamieLannister.takeDamage(10);
 	jamieLannister.beRepaired(3);
+
+	std::cout << std::endl;
+	std::cout << "*--------------END--------------*" << std::endl;
+	std::cout << std::endl;
 }

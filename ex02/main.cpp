@@ -44,4 +44,7 @@ int main()
 	cerseiLannister.beRepaired(10);
 	cerseiLannister.highFivesGuys();
 
+	std::cout << std::endl;
+	std::cout << "*--------------END--------------*" << std::endl;
+	std::cout << std::endl;
 }
