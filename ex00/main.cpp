@@ -2,7 +2,10 @@
 
 int main()
 {
-	std::cout << "*--------------Testing--------------*" << std::endl;
+	std::cout << std::endl;
+	std::cout << "*--------------ClapTrap--------------*" << std::endl;
+	std::cout << std::endl;
+	
 	ClapTrap dummy;
 	ClapTrap johnSnow("John Snow");
 	ClapTrap jamieLannister("Jaime Lannister");

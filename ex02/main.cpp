@@ -3,30 +3,45 @@
 
 int main()
 {
-	std::cout << "*--------------Testing--------------*" << std::endl;
-	ClapTrap soldier;
-	ClapTrap soldier_2("solider");
+	std::cout << std::endl;
+	std::cout << "*--------------ClapTrap--------------*" << std::endl;
+	std::cout << std::endl;
 
-	soldier.attack("two enemy");
-	soldier.takeDamage(10);
-	soldier.takeDamage(10);
-	soldier.beRepaired(5);
-	soldier.attack("a enemy");
-	soldier_2.beRepaired(3);
-	soldier_2.takeDamage(10);
+	ClapTrap dummy;
+	ClapTrap johnSnow("John Snow");
+	ClapTrap jamieLannister("Jaime Lannister");
 
-	std::cout << "*-----------------------------------*" << std::endl;
+	dummy.attack("Enemy");
+	dummy.takeDamage(10);
+	dummy.takeDamage(10);
+	dummy.beRepaired(5);
 
-	ScavTrap scav("abc");
-	scav.attack("123");
-	scav.takeDamage(10);
-	scav.beRepaired(10);
-	scav.guardGate();
+	johnSnow.attack("Dragon");
+	johnSnow.takeDamage(10);
+	johnSnow.beRepaired(3);
 
-	std::cout << "*-----------------------------------*" << std::endl;
+	jamieLannister.attack("White Walker");
+	jamieLannister.takeDamage(10);
+	jamieLannister.beRepaired(3);
 
-	FragTrap frag("highFive");
-	frag.attack("a human");
-	frag.highFivesGuys();
+	std::cout << std::endl;
+	std::cout << "*--------------ScavTrap--------------*" << std::endl;
+	std::cout << std::endl;
+
+	ScavTrap nedStark("Ned Stark");
+	nedStark.attack("King Joffrey");
+	nedStark.takeDamage(10);
+	nedStark.beRepaired(10);
+	nedStark.guardGate();
+
+	std::cout << std::endl;
+	std::cout << "*--------------FragTrap--------------*" << std::endl;
+	std::cout << std::endl;
+
+	FragTrap cerseiLannister("Cersei Lannister");
+	cerseiLannister.attack("Daenerys Targaryen");
+	cerseiLannister.takeDamage(10);
+	cerseiLannister.beRepaired(10);
+	cerseiLannister.highFivesGuys();
 
 }
