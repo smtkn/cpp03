@@ -47,7 +47,7 @@ void	FragTrap::highFivesGuys(void)
 {
 	if (this->hit_points <= 0)
 	{
-		std::cout << "Cannot high five because: ClapTrap " << this->name << " is dead." << std::endl;
+		std::cout << "Cannot high five because: FragTrap " << this->name << " is dead." << std::endl;
 		return ;
 	}
 
