@@ -27,8 +27,8 @@ class ClapTrap
 		int getAtackDamage() const;
 	//Setter Methods
 		void setName(std::string name); 
-		void getHitPoints(int hp);
-		void getEnergyPoints(int energy);
+		void setHitPoints(int hp);
+		void setEnergyPoints(int energy);
 		void setAtackDamage(int damage);
 	//Member Functions
 		void attack(const std::string& target);

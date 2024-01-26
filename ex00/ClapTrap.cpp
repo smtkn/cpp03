@@ -65,11 +65,11 @@ void ClapTrap::setName(std::string name)
 {
 	this->name = name;
 }
-void ClapTrap::getHitPoints(int hp)
+void ClapTrap::setHitPoints(int hp)
 {
 	this->hit_points = hp;
 }
-void ClapTrap::getEnergyPoints(int energy)
+void ClapTrap::setEnergyPoints(int energy)
 {
 	this->energy_points = energy;
 }
